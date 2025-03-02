@@ -1,9 +1,9 @@
 import axios from "axios"
 import { useState, useEffect } from "react"
 import { MembershipsIndex } from "./MembershipsIndex"
-import { SignupPage } from "./SignupPage"
-import { LoginPage } from "./LoginPage"
-import { LogoutLink } from "./LogoutLink"
+// import { SignupPage } from "./SignupPage"
+// import { LoginPage } from "./LoginPage"
+// import { LogoutLink } from "./LogoutLink"
 
 export function MembershipPage() {
   const [memberships, setMemberships] = useState([])
@@ -21,9 +21,9 @@ export function MembershipPage() {
   return (
     <main>
       <MembershipsIndex memberships={memberships}/>
-      <SignupPage />
+      {/* <SignupPage />
       <LoginPage/>
-      <LogoutLink/>
+      <LogoutLink/> */}
     </main>
   )
 }
