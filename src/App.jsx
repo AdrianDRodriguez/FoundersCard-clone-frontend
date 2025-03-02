@@ -1,6 +1,7 @@
 import {createBrowserRouter, RouterProvider, Outlet} from "react-router-dom"
 import { Header } from "./Header";
-import { MembershipPage } from "./MembershipPage";
+import { FoundersCardPage } from "./FoundersCardPage";
+import { MembershipsPage } from "./MembershipsPage";
 import { Footer } from "./Footer";
 import { SignupPage } from "./SignupPage";
 import { LoginPage } from "./LoginPage";
@@ -18,7 +19,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <MembershipPage />,
+        element: <FoundersCardPage />,
       },
       {
         path: "/signup",
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <AboutPage />,
+      },
+      {
+        path: "/memberships",
+        element: <MembershipsPage />,
       },
     ],
   },

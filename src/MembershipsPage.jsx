@@ -1,11 +1,8 @@
 import axios from "axios"
 import { useState, useEffect } from "react"
 import { MembershipsIndex } from "./MembershipsIndex"
-// import { SignupPage } from "./SignupPage"
-// import { LoginPage } from "./LoginPage"
-// import { LogoutLink } from "./LogoutLink"
 
-export function MembershipPage() {
+export function MembershipsPage () {
   const [memberships, setMemberships] = useState([])
   
   const handleIndex = () => {
@@ -17,13 +14,9 @@ export function MembershipPage() {
   }
   useEffect(handleIndex,[]);
 
-
   return (
     <main>
       <MembershipsIndex memberships={memberships}/>
-      {/* <SignupPage />
-      <LoginPage/>
-      <LogoutLink/> */}
     </main>
   )
 }
