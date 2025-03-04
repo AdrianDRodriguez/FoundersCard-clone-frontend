@@ -2,19 +2,20 @@
 
 export function Header() {
   return (
-    <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header className="mb-auto">
-          <div>
-            <h3 className="float-md-start mb-0" href="/">FoundersCard</h3>
-            <nav className="nav nav-masthead justify-content-center float-md-end">
-              <a className="nav-link fw-bold py-1 px-0 active" aria-current="page" href="/">Home</a>
-              <a className="nav-link fw-bold py-1 px-0" href="/memberships">Memberships</a>
-              <a className="nav-link fw-bold py-1 px-0" href="/about">About us</a>
-              <a className="nav-link fw-bold py-1 px-0" href="/login">Sign in</a>
-              <a className="nav-link fw-bold py-1 px-0" href="signup">Join</a>
-            </nav>
-          </div>
-        </header>
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="/">FoundersCard</a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="nav justify-content-end">
+      <div className="navbar-nav">
+        <a className="nav-link active" aria-current="page" href="/about">About us</a>
+        <a className="nav-link" href="/login">Sign in</a>
+        <a className="nav-link" href="/signup">Join</a>
+      </div>
     </div>
+  </div>
+</nav>
   )
 }

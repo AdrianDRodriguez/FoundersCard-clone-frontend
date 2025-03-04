@@ -1,3 +1,86 @@
-html {
-  scroll-behavior: smooth;
+p.card-text {
+  margin-bottom: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 5em;
+  margin-right: 5em;
+  text-align: center;
+}
+
+h1.card-title {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 8em;
+  margin-right: 8em;
+  margin-top: 3em;
+}
+
+a#hero-inquire-link.redesign-home-btn-white {
+  margin-right: 20em !important;
+  margin-left: 33em !important;
+  border-radius: 0 !important;
+  background-color: #fff !important;
+  -webkit-transition: all 350msease !important;
+  transition: all 350msease !important;
+  font-family: Montserrat, sans-serif !important;
+  color: #000 !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  border-color: #fff !important;
+  border-style: none !important;
+  border-width: 1px !important;
+  padding: 16px 40px !important;
+}
+
+p.redesign-home-sub-hero {
+  margin-bottom: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin-left: 12em;
+  margin-right: 12em;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  margin-top: 3em;
+  text-align: center;
+}
+
+p#redesign-what-is-p {
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 2em;
+  margin-bottom: 6em;
+  text-align: center;
+  margin-left: 20em;
+  margin-right: 20em;
+}
+
+h5 {
+  text-align: start;
+}
+
+a#vill-btn-link {
+  margin-right: 5em !important;
+  margin-left: 3em !important;
+  border-radius: 0 !important;
+  background-color: #000000 !important;
+  -webkit-transition: all 350msease !important;
+  transition: all 350msease !important;
+  font-family: Montserrat, sans-serif !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  border-color: #fff !important;
+  border-style: none !important;
+  border-width: 1px !important;
+  padding: 16px 40px !important;
 }
